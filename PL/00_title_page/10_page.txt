@@ -1,0 +1,16 @@
+Odczyt BLS - pierwszy test poprawnego dzia³ania mikrokontrolera  
+
+Ka¿dy mikrokontroler ATmega32A osadzony przez firmê Atnel w zestawie ATB posiada zmienione Fusebity odpowiedzialne za umiejscowienie bootloadera w pamiêci Flash, a tak¿e za jego automatyczny start po resecie.  Do osadzonego mikrokontrolera jest równie¿ wgrany bootloader.
+ 
+
+Test zestawu
+
+W celu sprawdzenia prawid³owej pracy zarówno mikrokontrolera, ale tak¿e przejœciówki USB/RS232 zamontowanej w zestawie ATB, wystarczy wykonaæ kilka nastêpuj¹cych czynnoœci:
+1.	Pod³¹czyæ zestaw ATB kablem USB do komputera.
+2.	Ustawiæ napiêcie zasilania zwork¹ J2 PWR w pozycjê USB.
+3.	Sprawdziæ czy zwarte s¹ ¿ó³te zworki  [ JP6 ]   oraz  [ JP7 ] , tu¿ nad mikrokontrolerem.
+4.	Uruchomiæ program MkBootloader.
+5.	Ustawiæ program MkBootloader w tryb pracy RS232.
+6.	W ustawieniach wybraæ prêdkoœæ transmisji (baudrate) 115200.
+7.	Wybraæ w³aœciwy numer portu COM (wskazany w MkAvrCAlculator).
+8.	Wcisn¹æ przycisk INFO w programie MkBootloader.

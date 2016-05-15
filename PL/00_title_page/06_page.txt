@@ -1,0 +1,6 @@
+Program MkBootloader - licencja  
+
+Zawsze nale¿y instalowaæ najbardziej aktualn¹ wersjê programu MkBootloader. Program mo¿na pobraæ ze strony producenta - firmy Atnel: http://atnel.pl/mkbootloader.html a nastêpnie rozpakowaæ do wybranego przez siebie folderu na w³asnym dysku twardym.
+Program, bezpoœrednio po pobraniu ze strony internetowej, pracuje w trybie FREE/DEMO. Ka¿dy nabywca zestawu ATB otrzymuje drog¹ mailow¹, plik licencyjny lic.dat do programu MkBootloader. Aby program zacz¹³ dzia³aæ w pe³nej wersji nale¿y wgraæ plik lic.dat z za³¹cznika wiadomoœci e-mail do folderu, gdzie uprzednio zosta³ rozpakowany MkBootloader. Dopiero od tego momentu program zacznie dzia³aæ w pe³nej wersji.
+Widok wersji FREE programu (bez licencji)
+- rysunek -

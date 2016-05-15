@@ -1,0 +1,7 @@
+Opcje zasilania zestawów ATB  
+
+Ka¿dy zestaw ATB w wersji podstawowej wraz z zainstalowan¹ przetwornic¹ ATB-PWR3 mo¿e byæ zasilany z jednego z trzech Ÿróde³. Za wybór Ÿród³a zasilania odpowiada zworka J2 PWR, która pozwala wybraæ jedno z dwóch ustawieñ: USB lub EXT. Domyœlnie (fabrycznie) zworka ustawiona jest w pozycji USB.
+1.	Przewód USB typu A-B (drukarkowy) pod³¹czony do komputera PC (domyœlny tryb zasilania)
+2.	Zewnêtrzny zasilacz +12 V – z wykorzystaniem przetwornicy ATB-PWR3
+3.	Przewód programatora zewnêtrznego (taœma) KANDA - zasilanie z programatora
+W przypadku zastosowania przetwornicy ATB-LION (zapewniaj¹cej zasilanie buforowane) i przy równoczesnym braku zasilania zewnêtrznego  -  mo¿na korzystaæ zarówno z akumulatorów Li-Ion oraz LiPo . Z tej przetwornicy mo¿na tak¿e korzystaæ bez u¿ycia akumulatorów. Wystarczy do wejœcia micro USB pod³¹czyæ zewnêtrzn¹ ³adowarkê np. od telefonu lub pod³¹czyæ do portu USB komputera.

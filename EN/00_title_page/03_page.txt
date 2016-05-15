@@ -1,0 +1,28 @@
+ATB board components:
+
+Board includes:
+1.	Hardware programmer USBasp
+2.	Step down regulator ATB-PWR3 - choose between +5 V / +3,3 V output (possible to mount with ATB-LION)
+3.	USB/RS232 converter based on FT232RL (full RS232 with RS485)
+4.	ATmega32A microcontroller
+5.	Replacable crystal - 11,0592 MHz
+6.  RESET button
+7.	External programmer connector (KANDA type)
+8.	V-USB
+9.	8 green LED diodes
+10.	IR receiver - 36 kHz
+11.	IR diode transmitter
+12. LCD display 2x16 (blue)
+13.	7-segment LED (red)
+14.	Tact-switch buttons ( 5 )
+15.	Potentiometer 20 k
+16.	Digital temperature sensor - DS18B20
+17.	EEPROM memory - 24C04
+18.	Clock and calendar chip based on PCF8583 (possible to replace with: PCF8563, DS1307+, DS1337+)
+19. MAX485 (SN75176)
+20.	Gel capacitor 0,22 F
+21.	Transistor array ULN2803
+22.	ATB-Microport connector ( new! )
+23.	HUB-USB - 2 ports
+24.	Software: MkAvrCalculator - full licencja
+25.	Software: MkBootloader - full licencja

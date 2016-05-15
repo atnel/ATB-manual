@@ -1,0 +1,27 @@
+First run - testing the board
+
+In this chapter we will discuss all recommended steps allowing you to properly
+test primary components of the ATB board
+
+
+MkAvrCalculator software - license
+
+For performing operations on microcontroller i.e. reading , programming , checking proper
+behavior you should always use up to date MkAvrCalculator software which can be
+downloaded from http://atnel.pl/mkavrcalculator.html. Once downloaded unpack it to destination folder
+of your choice.By default after download program runs in FREE/DEMO mode.
+Everyone who bought ATB board receives by email license file ( lic.dat ) for
+MkAvrCalculator software. In order to activate that license - place that file in folder
+which contains application. Once that is done and program is restarted it will be running in FULL version mode which allows
+to interact with ever AVR microcontroller including Atmega32 shipped with ATB board.
+
+
+Screenshot of software running in FREE version (without license)
+- rysunek -
+
+Screenshot of software running in FULL version (with license)
+- rysunek -
+
+Before further interacting with the board software should be installed on computer which
+will allow for fully automated installation of digitally signed drivers for build
+in USBasp programmer

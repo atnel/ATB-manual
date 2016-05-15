@@ -1,0 +1,28 @@
+Zawartoœæ zestawu ATB  
+
+W sk³ad zestawu wchodz¹:
+1.	Programator sprzêtowy USBasp
+2.	Przetwornica ATB-PWR3 - wybór zasilania +5 V / +3,3 V (mo¿liwoœæ osadzenia ATB-LION)
+3.	Przejœciówka USB/RS232 - uk³ad FT232RL (pe³ny RS232 oraz RS485)
+4.	Mikrokontroler ATmega32A
+5.	Wymienny rezonator kwarcowy z podstawk¹ - 11,0592 MHz
+6.	Przycisk RESET
+7.	Z³¹cze zewnêtrznego programatora typu KANDA
+8.	Uk³ad V-USB
+9.	Diody LED zielone - 8 szt.
+10.	Odbiornik podczerwieni 36 kHz
+11.	Dioda nadawcza podczerwieni
+12.	Wyœwietlacz LCD 2x16 (niebieski)
+13.	Wyœwietlacz 7-segmentowy LED (czerwony)
+14.	Przyciski typu tact-switch -5 szt.
+15.	Potencjometr 20 k
+16.	Cyfrowy czujnik temperatury DS18B20
+17.	Pamiêæ EEPROM 24C04
+18.	Uk³ad RTC PCF8583 (mo¿liwoœæ osadzenia: PCF8563, DS1307+, DS1337+)
+19.	Uk³ad MAX485 (SN75176)
+20.	Kondensator ¿elowy 0,22 F
+21.	Driver mocy ULN2803
+22.	Z³¹cze ATB-Microport ( nowoœæ! )
+23.	HUB-USB - 2 porty
+24.	Program MkAvrCalculator - pe³na licencja
+25.	Program MkBootloader - pe³na licencja

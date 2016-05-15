@@ -1,0 +1,6 @@
+W takim przypadku wystarczy uruchomiæ program MkAvrCalculator, który automatycznie wykryje USBasp bez zainstalowanych sterowników. Zostanie wyœwietlone zapytanie do u¿ytkownika:
+ 
+W przypadku pozytywnej odpowiedzi program podejmie akcjê ich instalacji. W jej wyniku zostan¹ zainstalowane podpisane cyfrowo sterowniki. Operacja ta mo¿e zaj¹æ od kilku do kilkudziesiêciu sekund. 
+W wyniku prawid³owej instalacji sterowników w mened¿erze urz¹dzeñ systemu Windows pojawi siê nastêpuj¹cy wpis:
+ 
+Œwiadczy to o prawid³owo zakoñczonym procesie instalacji i umo¿liwia dalsze prace w oparciu o wbudowany lub zewnêtrzny programator USBasp. Sterowniki dzia³aj¹ poprawnie równie¿ z programatorami USBasp innych producentów o ile s¹ one wykonane zgodnie ze standardem USBasp.

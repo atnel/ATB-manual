@@ -1,0 +1,14 @@
+Options for powering ATB board
+
+Every ATB base version board with ATB-PWR3 step down regulator installed can be
+powered from one of the three following sources:
+1. Type A-B USB cable (printer type) connected to PC ( default power mode )
+2. External power source of 12V with use of ATB-PWR3 step down regulator
+3. External KANDA tape - power from the programmer
+
+The source is selected by using J2 PWR jumper allowing to switch between USB and EXT.By default
+USB is selected as source.
+
+In case of use ATB-LION (providing buffered power) and lack of external power - its possible to use
+Li-Ion batteries and LiPO.You can also us it without use of batteries by just connecting
+external charger to micro USB port (i.e. from mobile device or to USB port in PC)

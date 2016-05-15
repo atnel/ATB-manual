@@ -1,0 +1,6 @@
+ATB-module fuse settings:
+
+Every Atmega32 microcontroller shipped with ATB-module by Atnel corporation has fuse settings
+different from factory defaults.Changes include:
+1.	Enable of external clock source (crystal 11,0592 MHz on board)
+2.	Disabled JTAG

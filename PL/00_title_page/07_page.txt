@@ -1,0 +1,12 @@
+Wbudowany programator ATB-USBasp  
+
+Ka¿dy zestaw ATB pocz¹wszy od wersji 1.05 posiada wbudowany sprzêtowy programator USBasp! Domyœlnie po zakupie programator jest od razu aktywny sprzêtowo, nie wymaga pod³¹czania w samym zestawie ¿adnych dodatkowych przewodów. Wystarczy pod³¹czyæ zestaw ATB do komputera za pomoc¹ przewodu USB typu A-B (kabel jak do drukarki). Programator umieszczony jest pod podstawk¹ z mikrokontrolerem ATmega32 na PCB zestawu.
+
+ 
+	
+ 
+
+
+Instalacja sterowników do wbudowanego programatora USBasp  
+
+Jeœli w systemie Windows nie by³o wczeœniej zainstalowanych sterowników do programatora USBasp, wtedy dziêki programowi MkAvrCalculator, który potrafi automatycznie zainstalowaæ cyfrowo podpisane sterowniki, sama instalacja sprowadza siê do prostej czynnoœci. Wystarczy pod³¹czyæ zestaw ATB kablem USB do komputera, na którym jest ju¿ uruchomiony program MkAvrCalculator. Jeœli w trakcie pod³¹czenia nie by³o uruchomionego programu MkAvrCalculator, to w systemie zg³osi siê nowe urz¹dzenie USB. Tyle, ¿e bêdzie widnia³o jako urz¹dzenie bez zainstalowanych sterowników.

@@ -1,0 +1,16 @@
+Pierwsze uruchomienie - test zestawu  
+
+W tym rozdziale omówione zostan¹ kroki, które zalecamy wykonaæ w opisanej kolejnoœci, aby dokonaæ pierwszego sprawdzenia poprawnego dzia³ania g³ównych sk³adników zestawu ATB.
+
+Program MkAvrCalculator - licencja  
+
+W celu sprawdzenia dzia³ania mikrokontrolera, jego odczytu lub zaprogramowania, nale¿y zainstalowaæ zawsze najbardziej aktualn¹ wersjê programu MkAvrCalculator. Program mo¿na pobraæ ze strony producenta, firmy Atnel: http://atnel.pl/mkavrcalculator.html a nastêpnie rozpakowaæ do wybranego przez siebie folderu na w³asnym dysku twardym.
+Program, bezpoœrednio po pobraniu ze strony internetowej, pracuje w trybie FREE/DEMO. Ka¿dy nabywca zestawu ATB otrzymuje drog¹ mailow¹, po zakupie, plik licencyjny lic.dat, do programu MkAvrCalculator. Aby program zacz¹³ dzia³aæ w pe³nej wersji nale¿y wgraæ plik lic.dat z za³¹cznika wiadomoœci e-mail do folderu, gdzie uprzednio zosta³ rozpakowany MkAvrCalculator. Dopiero od tego momentu program zacznie dzia³aæ w pe³nej wersji i poprawnie obs³ugiwaæ wszystkie mikrokontrolery AVR, w tym tak¿e ATmega32A osadzony w zestawie ATB.
+
+Widok wersji FREE programu (bez licencji)
+- rysunek - 
+
+Widok pe³nej wersji programu (z licencj¹)
+- rysunek -  
+
+Przed przyst¹pieniem do dalszych prac z zestawem program powinien zostaæ uruchomiony na komputerze, poniewa¿ to za jego pomoc¹ zostan¹ zainstalowane cyfrowo podpisane sterowniki do wbudowanego w zestaw ATB programatora USBasp. Instalacja ta odbêdzie siê ca³kowicie automatycznie.

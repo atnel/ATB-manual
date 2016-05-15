@@ -1,0 +1,15 @@
+MkBootloader software - license
+
+
+
+MkBootloader software - license
+
+You should always use up to date MkBootloader software which can be
+downloaded from http://atnel.pl/MkBootloader.html. Once downloaded unpack it to destination folder
+of your choice.By default after download program runs in FREE/DEMO mode.
+Everyone who bought ATB board receives by email license file ( lic.dat ) for
+MkBootloader software. In order to activate that license - place that file in folder
+which contains application. Once that is done and program is restarted it will be running in FULL version mode.
+
+Screenshot of software running in FREE version (without license)
+- rysunek -

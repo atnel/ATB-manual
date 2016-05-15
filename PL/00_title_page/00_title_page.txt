@@ -1,0 +1,3 @@
+INSTRUKCJA - ATB 1.05
+
+Podstawowe informacje na temat zestawów ATB w wersji 1.05. Opis modu³ów wchodz¹cych w sk³ad konstrukcji. Schematy zestawu wraz z poszczególnymi modu³ami. Sposoby zasilania, po³¹czeñ. Polecana literatura do æwiczeñ z zestawem oraz wa¿ne linki do poradników.

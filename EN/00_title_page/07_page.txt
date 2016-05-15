@@ -1,0 +1,15 @@
+Build-in ATB-USBasp programmer
+
+Every ATB-board since version 1.05 contains build-in hardware ATB-USBasp programmer!
+Out of the box it is active and does not require any extra cables.Just connect
+ATB-module to PC with type A-B USB cable (printer type).Programmer is positioned under
+Atmega32 holder.
+
+
+Installing drivers for build-in ATB-USBasp programmer
+
+If you haven't had previously installed USBasp drivers in your system, then thanks to
+MkAvrCalculator software you just need to connect ATB-module to PC and enjoy fully automated installation
+of digitally signed drivers.If while connecting the module to PC MkAvrCalculator software wasn't running
+then Windows will notify you about newly discovered USB hardware. Drawback here is that device will show as missing
+appropiate drivers.

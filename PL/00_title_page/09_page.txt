@@ -1,0 +1,5 @@
+Ustawienia Fusebitów w zestawie ATB 
+ 
+Ka¿dy mikrokontroler ATmega32A osadzony przez firmê Atnel w zestawie ATB posiada zmienione Fusebity w stosunku do fabrycznych ustawieñ producenta mikrokontrolerów. Zmiany wprowadzone polegaj¹ na:
+1.	W³¹czeniu zewnêtrznego Ÿród³a taktowania (kwarc 11,0592 MHz w zestawie)
+2.	Wy³¹czeniu Fusebitu odpowiedzialnego za z³¹cze JTAG

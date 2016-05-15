@@ -1,0 +1,7 @@
+Manual - ATB 1.05
+
+ATB ver 1.05 base information
+List of modules included
+Detailed board and modules schematics
+Powering and conneting module
+Recommended literature along with links to video guides 

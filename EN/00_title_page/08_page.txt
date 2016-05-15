@@ -1,0 +1,11 @@
+In this case you just need to start MkAvrCalculator software which will automatically detect
+missing USBasp drivers.User will be prompted with:
+
+
+In response to acceptance of the operation MkAvrCalculator will attempt to install them.
+This will result in installation of digitally signed drivers which can take up to 30 sec.
+Once completed in windows device manager the following will be shown:
+
+This confirms that operation has completed successfully and allows to continue work with use
+of build in or external USBasp programmer.Those drivers work with any USBasp programmers
+which are fully compliant with USBasp standard.

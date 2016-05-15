@@ -1,0 +1,17 @@
+Reading BLS - first test for proper working of microcontroller
+
+Every Atmega32 microcontroller shipped with ATB-module by Atnel corporation
+has altered fuse settings responsible for placement of bootloader in flash and
+it's automated start after reset.Bootloader is installed for you.
+
+Steps to test the ATB-module
+In order to verify proper operations of microcontroller as well as USB/RS232 converter
+you just need to execute following actions:
+1.	Connect ATB module to computer with USB cable.
+2.	Set J2 PWR jumper in USB position.
+3.	Check if jumpers [ JP6 ]   and  [ JP7 ] are installed ( positioned just above microcontroller)
+4.	Start MkBootloader software.
+5.	Set MkBootloader to work in RS232 mode.
+6.	Change baudrate transmission speed setting to 115200
+7.	Choose appropiate COM port (displayed by MkAvrCAlculator software).
+8.	Push info button.
