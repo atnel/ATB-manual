@@ -1,0 +1,13 @@
+Odbiornik podczerwieni (TSOP31236)
+
+(rysunek)
+
+W zestawie zamontowany jest scalony odbiornik podczerwieni przeznaczony dla czêstotliwoœci noœnej 36 kHz. Z powodzeniem mo¿e byæ jednak wykorzystywany do odbioru kodów z pilotów nadaj¹cych ramki z czêstotliwoœci¹ noœn¹ w zakresie od 32 kHz a¿ do 44 kHz. Zasilanie odbiornika jest bardzo dobrze filtrowane, wyjœcie podci¹gniête sprzêtowo do VCC. Zworka J14 opisana jako IR_ICP umo¿liwia bezpoœrednie pod³¹czenie wyjœcia odbiornika do pinu PD6 mikrokontrolera ATmega32.
+
+
+
+Cyfrowy czujnik temperatury DS18B20
+
+(rysunek)
+
+W p³ytkê zestawu ATB wlutowany jest scalony czujnik temperatury oznaczony symbolem DS18B20. Czujnik zasilany jest aktualnie u¿ywanym w zestawie napiêciem VCC, które mo¿e wynosiæ +3,3 V lub +5 V (domyœlnie). Pin wyjœciowy czujnika podci¹gniêty jest do VCC rezystorem 2,2 K i wyprowadzony na z³¹cze typu goldpin na pin opisany jako 1wire. Pod czujnikiem znajduj¹ siê wlutowane 3 goldpiny umo¿liwiaj¹ce podpiêcie do magistrali kolejnych czujników. Dodatkowo pozostawione zosta³o wolne miejsce na wlutowanie dodatkowych trzech goldpinów.

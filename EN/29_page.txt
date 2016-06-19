@@ -1,0 +1,13 @@
+Zewnêtrzna pamiêæ EEPROM - 24c04
+
+(rysunki)
+
+Zewnêtrzna pamiêæ EEPROM 24c04 pod³¹czona jest do magistrali I2C w zestawie ATB. Za pomoc¹ bia³ej zworki na konfiguracyjnym z³¹czu goldpin (po prawej stronie) mo¿na wybraæ zmianê jej adresu na magistrali. Zmiana adresu dokonywana jest poprzez pod³¹czenie pinu A1 uk³adu do GND lub VCC (opis jest tak¿e na PCB). Uk³ad umieszczony jest w podstawce precyzyjnej pod wyœwietlaczem LCD.
+
+
+
+RS485 - uk³ad SN75176 (odpowiednik MAX485)
+
+(rysunki)
+
+W zestawach ATB osadzony jest uk³ad do komunikacji poprzez magistralê RS485. Symbol uk³adu to SN75176, odpowiednik uk³adu MAX485. Uk³ad umieszczony jest w podstawce precyzyjnej pod wyœwietlaczem LCD. Jego wyprowadzenia, które mo¿na pod³¹czyæ do mikrokontrolera wyprowadzone s¹ pod wyœwietlaczem LED, na z³¹czu typu goldpin. Dostêpne s¹ trzy sygna³y: RX, TX oraz DE (sygna³ DE to po³¹czone wyprowadzenia RE i DE uk³adu) co zapewnia wygodne prze³¹czanie uk³adu z trybu nadawania na odbiór i odwrotnie; za pomoc¹ zmiany stanu wysokiego na niski lub niskiego na wysoki.

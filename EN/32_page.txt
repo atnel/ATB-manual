@@ -1,0 +1,16 @@
+Przejœciówka USB / RS232 / RS485
+
+(rysunek)
+
+Przejœciówka USB/RS232 oparta na uk³adzie FT232RL to jedna z najsilniejszych stron zestawów ATB firmy Atnel. Olbrzymi¹ zalet¹ przejœciówek wbudowanych w zestawy naszej firmy jest wykorzystanie w 100% wszystkich mo¿liwoœci uk³adu FT232RL. Dziêki temu mo¿e on pe³niæ kilka funkcji w zestawie:
+
+1. Pe³na przejœciówka USB/RS232 z mo¿liwoœci¹ doboru zakresu napiêæ na wyjœciach. (Wszystkie linie portu RS232 dostêpne dla u¿ytkownika).
+2. Przejœciówka USB/RS485, która w po³¹czeniu z osadzonym uk³adem MAX485 w zestawie daje mo¿liwoœci pod³¹czania siê komputerem PC do magistrali przemys³owej RS485 i dokonywanie dowolnych testów za pomoc¹ w³asnego lub zewnêtrznego oprogramowania.
+3. Programator zapasowy w zestawie typu ATB-FT232RL.
+4. Generator TTL na potrzeby taktowania mikrokontrolera.
+
+
+Do wyboru standardu napiêæ na wyjœciach przejœciówki s³u¿y zworka oznaczona jako VCCIO (JP15), tu¿ pod gniazdem USB. Domyœlnie wybrany jest standard TTL. Nale¿y pamiêtaæ, aby zmieniæ go zwork¹ na 3.3V gdy zmienione zostanie zasilanie zestawu, np. z przetwornicy ATB-PWR3 na napiêcie +3,3 V.
+
+
+Uwaga! Przejœciówka DOMYŒLNIE pod³¹czona jest liniami RX i TX do mikrokontrolera za pomoc¹ zworek JP6 oraz JP7. Jeœli zajdzie potrzeba wykorzystania przejœciówki autonomicznie; do pod³¹czenia b¹dŸ to do uk³adu MAX485 albo do w³asnego zewnêtrznego uk³adu, telefonu itp. liniami RX i TX; nale¿y bezwzglêdnie pamiêtaæ o rozwarciu zworek JP6 i JP7. Podobnie, gdy zechcemy pod³¹czaæ np. do testów diody LED albo inne peryferia do pinów PD0 i PD1 mikrokontrolera. Dotyczy to równie¿ sytuacji, gdy zachodzi potrzeba pod³¹czenia do mikrokontrolera uk³adów typu Bluetooth albo ATNEL-WIFI232-T poprzez podstawkê ATNEL-AIR zamontowan¹ w lewym dolnym rogu zestawu pomiêdzy odbiornikiem podczerwieni a mikrokontrolerem. Niezastosowanie siê do tych wskazówek grozi uszkodzeniem albo uk³adu FT232, albo mikrokontrolera, albo obydwóch naraz w najgorszym przypadku.

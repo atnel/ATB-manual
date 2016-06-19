@@ -1,0 +1,16 @@
+Uk³ady RTC w zestawach ATB - domyœlnie PCF8583
+
+(rysunki)
+
+
+Zalet¹ zestawów uruchomieniowych ATB jest mo¿liwoœæ osadzenia i testowania kilku ró¿nych uk³adów RTC (Real Time Clock). Domyœlnie montowany jest uk³ad PCF8583. Osadzony jest on w precyzyjnej podstawce pod wyœwietlaczem LCD. Dziêki temu mo¿na uk³ad wyj¹æ z podstawki i skorzystaæ z innych, obecnie coraz bardziej popularnych uk³adów takich jak: PCF8563 (nowsza wersja PCF8583), czy te¿ uk³ady firmy Dallas DS1307+ lub DS1337+.
+
+(rysunek)
+
+
+Uk³ady te maj¹ zapewnione podtrzymanie bateryjne zasilania za pomoc¹ kondensatora ¿elowego o du¿ej pojemnoœci 0,22 F. Taktowane s¹ za pomoc¹ zegarkowego rezonatora kwarcowego o czêstotliwoœci 32,768 kHz. Zasilanie uk³adów RTC odseparowane jest od zasilania w zestawie za pomoc¹ podwójnej diody Schottky’ego D2. Zapobiega to up³ywnoœci pr¹du z kondensatora ¿elowego gdy zestaw jest wy³¹czony, a tym samym uk³ad mo¿e dzia³aæ stosunkowo d³ugo bez g³ównego zasilania.
+
+Schemat uk³adu wydaje siê byæ skomplikowany, ale to z uwagi na zastosowan¹ iloœæ zworek/jumperów, które s³u¿¹ do szybkiej i wygodnej konfiguracji uk³adu, jaki zamierzamy wykorzystaæ i testowaæ w zestawie.
+
+
+Tu¿ nad uk³adem na p³ycie PCB widaæ tabelê z opisem ustawieñ jumperów do konfiguracji konkretnego uk³adu RTC. Dziêki temu, ¿e w zworki wraz z goldpinami prezentowane s¹ graficznie, to do ustawiania u¿ytkownik nie musi sprawdzaæ numerków poszczególnych jumperów. W tabeli pierwszy uk³ad w lewym górnym jej rogu oznaczony zosta³ gwiazdkami, co oznacza ustawienia domyœlne dla uk³adu PCF8585, który jest osadzany fabrycznie.

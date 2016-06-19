@@ -1,0 +1,22 @@
+Uwaga! W przypadku korzystania z przetwornicy ATB-LION nale¿y bezwzglêdnie przestrzegaæ nastêpuj¹cych zasad:
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+1. Nale¿y ustawiæ zworkê J2 w zestawie ATB w pozycjê EXT
+2. Nale¿y bezwzglêdnie rozewrzeæ bia³¹ zworkê J3 w zestawie ATB
+3. Nale¿y zewrzeæ zworki SMD od spodu PCB JP9 oraz JP10
+4. Pod ¿adnym pozorem nie mo¿na pod³¹czaæ do zestawu ATB przewodów USB do obu gniazd. Mo¿na korzystaæ albo tylko z gniazda mikro USB w module ATB-LION, albo tylko z gniazda USB typu B w zestawie ATB.
+5. Na module przetwornicy nale¿y zewrzeæ kropl¹ cyny zworki SMD J4 oraz J5
+
+Po dokonaniu w.w zmian nie mo¿na pod ¿adnym pozorem u¿yæ przetwornicy ATB-PWR3, bez przynajmniej rozlutowania zworek SMD J9 oraz J10.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+W przypadku korzystania z po³¹czenia USB z komputerem poprzez modu³ ATB-LION nie bêdzie dostêpna komunikacja szeregowa poprzez uk³ad przejœciówki FT232R! Za to bêdzie dzia³a³ wbudowany w zestaw ATB programator USBasp.
+
+W przypadku korzystania z po³¹czenia USB z komputerem poprzez gniazdo USB typu B (drukarkowe) osadzone w zestawie ATB, mo¿na korzystaæ zarówno z uk³adu przejœciówki FT232RL jak równie¿ wbudowanego programatora USBasp.
+
+(rysunki)
+
+Szczegó³owe informacje na temat przetwornicy, jej konfiguracji, mo¿liwoœci dzia³ania znaleŸæ mo¿na na stronie firmy Atnel:
+http://atnel.pl/atb-lion.html

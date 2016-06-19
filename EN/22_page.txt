@@ -1,0 +1,10 @@
+Opcje RESETU mikrokontrolera
+
+
+Sprzêtowy RESET mikrokontrolera w zestawie ATB zapewnia przycisk typu tact-switch umieszczony tu¿ pod z³¹czem KANDA. Wciœniêcie przycisku zwiera bezpoœrednio liniê RESET mikrokontrolera do GND.
+
+
+Soft RESET.
+Dodatkowo zastosowano mo¿liwoœæ resetowania mikrokontrolera z poziomu aplikacji na komputerze PC poprzez sygna³ DTR portu szeregowego COM w komputerze. Umieszczono kondensator ceramiczny C10 (widoczny na schemacie modu³u z uk³adem FT232R) o pojemnoœci 100 nF pomiêdzy lini¹ DTR a pinem RESET mikrokontrolera. Domyœlnie zworka ta jest rozwarta. Gdy chcemy skorzystaæ z programowego resetu z poziomu aplikacji np. z poziomu programu MkBootloader lub œrodowiska Arduino wtedy nale¿y zewrzeæ zworkê ARST.
+
+Nale¿y pamiêtaæ, ¿e po zwarciu zworki ARST ka¿dorazowe pod³¹czenie zasilania do zestawu (konkretnie do uk³adu FT232R) spowoduje kilkukrotne resetowanie siê mikrokontrolera i aplikacji w nim zapisanej z uwagi na fakt, ¿e podczas inicjalizacji uk³adu FT232R kilka razy zmienia siê stan na wyjœciu DTR z niskiego na wysoki i odwrotnie. W rezultacie nastêpuje kilkukrotne ³adowanie i roz³adowanie kondensatora ceramicznego, co prowadzi do kilkukrotnego, krótkotrwa³ego podania stanu niskiego na liniê RESET mikrokontrolera.

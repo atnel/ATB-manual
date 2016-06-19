@@ -1,0 +1,12 @@
+Z³¹cze programatora ISP - KANDA (programator wewn./zewn.)
+
+W lewej czêœci p³ytki PCB, poni¿ej gniazda USB umieszczone zosta³o gniazdo programatora ISP w standardzie KANDA. Mo¿na dziêki niemu korzystaæ z zewnêtrznych programatorów ISP, a tak¿e programowaæ wbudowanym programatorem USBasp zewnêtrzne uk³ady.
+
+Sygna³y masy doprowadzone s¹ tylko i wy³¹cznie do pinów nr 8 oraz 10 gniazda wiêc trzeba sprawdziæ czy we w³asnym programatorze, co najmniej do jednego z tych pinów doprowadzony jest sygna³ masy.
+
+(rysunek)
+
+Uwaga! Z³¹cze KANDA w zestawie ATB mo¿e byæ wykorzystywane zarówno jako WEJŒCIE do pod³¹czania taœmy z programatorów zewnêtrznych a tak¿e jako WYJŒCIE; gdy chcemy u¿yæ wbudowanego w zestaw programatora USBasp do zaprogramowania zewnêtrznego uk³adu np. na p³ytce stykowej, lub w³asnej konstrukcji. Jedynym warunkiem u¿ycia z³¹cza jako WYJŒCIE jest koniecznoœæ wyjêcia mikrokontrolera z podstawki. Wtedy mo¿na taœmê KANDA pod³¹czyæ do w³asnego uk³adu na zewn¹trz i go zaprogramowaæ wbudowanym programatorem.
+
+
+Podsumowuj¹c, zestawy ATB w wersji 1.05 mog¹ byæ u¿ywane jako zewnêtrzny programator USBasp. Tym samym jedn¹ taœm¹ doprowadzamy do zewnêtrznego uk³adu poza liniami ISP równie¿ zasilanie czyli VCC i GND.

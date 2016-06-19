@@ -1,0 +1,42 @@
+[ Zworki ¯Ó£TE ] - odpowiadaj¹ za magistrale danych w zestawie: RS232 oraz I2C
+
+Magistrala RS232
+
+JP6 - zwarta *, linia TX procesora po³¹czona z lini¹ RX uk³adu FT232R
+rozwarta, linia TX procesora od³¹czona od linii RX uk³adu FT232R
+
+JP7 - zwarta *, linia RX procesora po³¹czona z lini¹ TX uk³adu FT232R
+rozwarta, linia RX procesora od³¹czona od linii TX uk³adu FT232R
+
+Uwaga! Zworki domyœlnie s¹ zwarte co oznacza, ¿e nie mo¿na w tym momencie pod³¹czaæ dodatkowo modu³ów Bluetooth lub WiFi do pinów PD0 i PD1 mikrokontrolera. Podobnie nie mo¿na z nich w tym momencie korzystaæ do innych celów. Aby to by³o mo¿liwe nale¿y rozewrzeæ obie zworki.
+
+
+
+Magistrala I2C
+
+JP3 - zwarta *, linia SDA (PC1) procesora pod³¹czona do magistrali na ATB
+rozwarta, linia SDA (PC1) procesora od³¹czona od magistrali na ATB
+
+JP4 - zwarta *, linia SCL (PC0) procesora pod³¹czona do magistrali na ATB
+rozwarta, linia SCL (PC0) procesora od³¹czona od magistrali na ATB
+
+
+[ Zworki BIA£E ] - konfiguracja uk³adów peryferyjnych w zestawie
+
+[ J35 J36 J37 ]
+Zworki umo¿liwiaj¹ wybór i osadzenie w zestawie ATB jednego z czterech uk³adów RTC.
+Do wyboru s¹:
+1. PCF8583 - montowany fabrycznie
+2. PCF8563
+3. DS1307+
+4. DS1337+
+
+
+[ JP8-ARST ] - zwarta, w³¹czony auto RESET z linii DTR uk³adu, FT232R (jak w Arduino)
+rozwarta *, linia RESET od³¹czona od DTR 
+
+[ J3 ] - zwarta *, dla przetwornicy ATB-PWR3 musi byæ ZWARTA !
+rozwarta, dla przetwornicy ATB-LION musi byæ ROZWARTA ! 
+
+[ IR_ICP ] - zwarta, pod³¹czenie wyjœcia odbiornika IR do pinu PD6
+rozwarta *, wyjœcie odbiornika IR od³¹czone

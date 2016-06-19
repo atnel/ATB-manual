@@ -1,0 +1,18 @@
+Opcje taktowania mikrokontrolera
+
+Zestawy ATB zaopatrzone s¹ we wszystkie opisane w nocie PDF Ÿród³a taktowania zewnêtrznego mikrokontrolera. Wyboru Ÿród³a taktowania dokonuje siê za pomoc¹ trzech kombinacji jumperów JK1, JK2 oraz JK3.
+
+
+Do wyboru s¹ trzy opcje:
+
+* zewnêtrzny rezonator kwarcowy (domyœlnie)
+* zewnêtrzny oscylator RC ( ok. 6 MHz )
+* zewnêtrzny generator TTL ( 6 MHz )
+
+Ka¿dy zestaw zaopatrzony jest standardowo w podstawkê pod rezonator kwarcowy. Umo¿liwia to swobodn¹ wymianê rezonatorów o ró¿nych czêstotliwoœciach.
+
+Domyœlnie w zestawach ATB osadzony jest rezonator o czêstotliwoœci taktowania 11,0592 MHz.
+
+ród³o taktowania generatora TTL pochodzi z uk³adu FT232RL. W zwi¹zku z powy¿szym musi on byæ zasilany. W tym celu nale¿y koniecznie pod³¹czyæ do zestawu kabel USB.
+
+Zewnêtrzny oscylator RC tworz¹: rezystor R26 oraz kondensator C16.

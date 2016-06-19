@@ -1,0 +1,16 @@
+Diody LED - 8 sztuk
+
+(rysunek)
+
+
+W zestawie osadzono 8 diod LED, kolor zielony. Pod³¹czone s¹ na sta³e anodami do VCC, katody dostêpne s¹ dla u¿ytkownika. Katody wyprowadzone s¹ w postaci z³¹cza goldpin umieszczonego równolegle do PORTC mikrokontrolera po to, aby mo¿na by³o je wygodnie i szybko pod³¹czaæ zworkami zamiast u¿ywaæ przewodów po³¹czeniowych. Uwaga! Równolegle z diod¹ LED1 sterowaæ mo¿na poprzez tranzystor diod¹ nadawcz¹ podczerwieni jeœli jest osadzona w podstawce.
+
+
+
+Dioda nadawcza IR (podczerwieñ)
+
+(rysunek)
+
+Do ka¿dego zestawu ATB klient otrzymuje diodê nadawcz¹ podczerwieni IR (œrednica 5 mm). Jest ona do³¹czona luzem w woreczku strunowym. Gdy zajdzie koniecznoœæ mo¿na j¹ osadziæ w podstawce precyzyjnej IR_LED, a do sterowania wykorzystaæ pin od zwyk³ej diody LED1. W trakcie, gdy bêdzie nadawaæ dioda podczerwieni, bêdzie równie¿ œwieciæ dioda LED1.
+
+Sterowanie diod¹ podczerwieni odbywa siê za poœrednictwem tranzystora PNP i rezystora R3 ( 39R ) po to, aby uzyskaæ mo¿liwie najwiêkszy zasiêg nadawania.

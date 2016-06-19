@@ -1,0 +1,18 @@
+Wyœwietlacz OLED - I2C
+
+(rysunek)
+
+Ka¿dy zestaw ATB wyposa¿ony jest w podstawkê pod wyœwietlacz OLED z magistral¹ I2C. Jest to czteropinowe z³¹cze ¿eñskie. Sam wyœwietlacz nie jest na wyposa¿eniu zestawu i nale¿y go zakupiæ we w³asnym zakresie.
+Wyœwietlacz pod³¹czony jest do magistrali I2C w zestawie ATB, w której pracuj¹ jeszcze: pamiêæ EEPROM oraz uk³ad RTC.
+
+
+
+Wyœwietlacz 7-segmentowy LED - 4 pozycje
+
+(rysunek)
+
+Wyœwietlacz 7-segmentowy LED (kolor czerwony), posiada cztery cyfry oraz cztery kropki. Wyœwietlacz jest w konfiguracji ze wspóln¹ anod¹. Osiem segmentów od A do H (H-kropka). Piny zwi¹zane z segmentami usytuowane s¹ równolegle do pinów PORTA, dziêki czemu mo¿na u¿ywaæ standardowych zworek w rastrze 2,54 mm aby pod³¹czyæ wybrane segmenty wygodnie i szybko do mikrokontrolera, bez koniecznoœci u¿ywania przewodów po³¹czeniowych.
+
+Wyprowadzenia wspólnych anod wyœwietlaczy oznaczone s¹ od DIG1 do DIG4 i odpowiadaj¹ za kolejne cyfry od lewej do prawej strony wyœwietlacza.
+
+Wyœwietlacz ten nadaje siê idealnie do najwa¿niejszego æwiczenia omawianego w ksi¹¿ce „Mikrokontrolery AVR - Jêzyk C podstawy programowania” ( http://atnel.pl/wydawnictwo.html )

@@ -1,0 +1,28 @@
+Zasilanie zewnêtrzne zestawu - opcje
+
+(rysunek)
+
+
+
+Ka¿dy zestaw ATB mo¿e byæ zasilany z zewnêtrznego zasilacza dziêki do³¹czonej do zestawu przetwornicy. Przetwornica ATB-PWR3 jest montowana w specjalnym gnieŸdzie, które umo¿liwia zastosowanie w przysz³oœci innych przetwornic firmy Atnel np. ATB-LION, która pe³ni równie¿ rolê ³adowarki oraz przetwornicy do akumulatorów typu Li-Ion oraz LiPo. Przetwornica ATB-LION pe³ni wraz z pojedynczym akumulatorem 18F650 doskona³ej jakoœci zasilacz buforowy.
+
+Korzystaj¹c z domyœlnie zainstalowanej przetwornicy ATB-PWR3 do zestawu mo¿na doprowadziæ zasilanie z dowolnego zasilacza z wyprostowanym napiêciem o wartoœci od +8 V do +40 V max. Wa¿ne, aby wydajnoœæ takiego zasilacza by³a na poziomie minimum 500 mA. Zalecana wydajnoœæ to od 1 A do 1,5 A .
+
+Obie przetwornice firmy Atnel zapewniaj¹ mo¿liwoœæ zasilania zestawu jednym z dwóch napiêæ do wyboru za pomoc¹ zworki na przetwornicy. Domyœlnie ka¿da przetwornica ustawiona jest tak aby podawa³a zasilanie +5 V.
+
+
+
+W standardowej wersji zestawu ATB
+nie ma obsadzonego prze³¹cznika suwakowego S1.
+W zwi¹zku z tym musi byæ zwarta zworka J1.
+
+
+Po dolutowaniu, we w³asnym zakresie
+prze³¹cznika suwakowego S1 nale¿y
+rozewrzeæ zworkê J1.
+
+
+(rysunki)
+
+
+Dodatkowo zastosowano w zestawie stabilizator liniowy LM1117 w celu uzyskania napiêcia +3,3 V w przypadku gdy ca³y zestaw zasilany jest z przetwornicy napiêciem +5 V. Zasilanie to potrzebne jest g³ównie do zastosowañ w ATB-Microport, mo¿na jednak z niego korzystaæ równie¿ do w³asnych celów. W przypadku, gdy przetwornica pracuje z napiêciem +3,3 V mo¿na pomin¹æ stabilizator zwork¹ JP16.
