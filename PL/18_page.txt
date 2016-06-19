@@ -1,0 +1,19 @@
+(rysunek)
+
+
+Uwaga! Schematy nie zawieraj¹ elementów: USBasp oraz HUB USB
+
+
+Schemat podzielony jest na bloki funkcjonalne. Szare zakreœlone prostok¹ty oznaczaj¹ elementy, które standardowo nie s¹ obsadzane w zestawie. Nale¿¹ do nich:
+
+1. Prze³¹cznik suwakowy S1 (pod przetwornic¹ ATB) - za³¹czanie zasilania +12 V w zestawie.
+2. Enkoder obrotowy.
+3. Przetwornica obni¿aj¹ca napiêcie kontrastu ICL7660 wraz z elementami zewnêtrznymi.
+4. Gniazdka ATNEL-AIR (podstawki pod modu³y ATB-BTM-222 lub ATNEL-WIFI232-T).
+5. Dwa optoizolatory (U13 i U14) LTV335T wraz ze z³¹czem ARK.
+
+
+Elementy opcjonalne mo¿na zakupiæ oddzielnie w sklepie internetowym firmy Atnel i zamontowaæ je samodzielnie w zestawie ATB.
+
+
+www.sklep.atnel.pl

@@ -1,0 +1,11 @@
+Przetwornica kontrastu LCD - ICL7660 (opcja)
+
+(rysunek)
+
+Firma Atnel wprowadzi³a do zestawów ATB przetwornicê ICL7660, która s³u¿y do obni¿enia napiêcia kontrastu wyœwietlacza LCD. Zalet¹ tego rozwi¹zania jest mo¿liwoœæ poprawnego korzystania z wyœwietlaczy LCD podczas zasilania ca³ego zestawu napiêciem +3,3 V. Bez przetwornicy po obni¿eniu napiêcia zasilania z +5 V do +3,3 V wyœwietlacz przestaje poprawnie dzia³aæ. Nie widaæ ¿adnych znaków. W celu umo¿liwienia pracy trzeba zapewniæ ujemne napiêcie na pin kontrastu wyœwietlacza LCD i do tego s³u¿y ta przetwornica. Sk³ada siê ona, poza samym uk³adem scalonym, z trzech kondensatorów: C29, C30 oraz C31. Ka¿dy o pojemnoœci 22 uF. Po wlutowaniu tych elementów we w³asnym zakresie nale¿y pamiêtaæ o przestawieniu zworki SMD w postaci rezystora R78 w przeciwn¹ pozycjê (na prawo), jak na rysunku poni¿ej. Ca³oœæ umieszczona jest od spodu p³yty PCB, pod wyœwietlaczem LCD.
+
+Uwaga! Domyœlnie przetwornica nie jest montowana w zestawach. Potrzebne elementy mo¿na zakupiæ w sklepie internetowym firmy Atnel i zamontowaæ we w³asnym zakresie.
+
+www.sklep.atnel.pl
+
+(rysunek)

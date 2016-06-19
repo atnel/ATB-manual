@@ -1,0 +1,22 @@
+(rysunki)
+
+Umiejscowienie podstawek ATNEL-AIR na zestawie ATB jest zgodne z rysunkiem poni¿ej.
+
+(rysunek)
+
+W zestawach ATB u¿ytkownik mo¿e we w³asnym zakresie zainstalowaæ sobie gniazdka (podstawki) typu ATNEL-AIR pod modu³y takie jak:
+
+1. Bluetooth ATB-BTM-222
+2. WiFi - ATNEL-WIFI232-T
+3. Radiomodem HM-TRP
+(rysunek)
+
+
+
+Gniazdo oznaczone numerem 1 po³¹czone jest z pinami TX oraz RX przejœciówki USB/RS232 zatem wpiêcie jednego z modu³ów do tego gniazda pozwala na wygodn¹ pracê i konfiguracjê modu³u z poziomu oprogramowania na komputerze PC. Gniazdo oznaczone numerem 2 po³¹czone jest z pinami mikrokontrolera PD0 i PD1 (RX/TX), tak wiêc wpinaj¹c modu³ w to gniazdo mo¿na testowaæ modu³ za pomoc¹ oprogramowania w mikrokontrolerze. Oba gniazda po wpiêciu modu³ów umo¿liwiaj¹ przetestowanie komunikacji pomiêdzy dwoma niezale¿nymi modu³ami drog¹ radiow¹ albo za pomoc¹ Bluetooth, albo WiFi, albo modemem HM-TRP.
+
+UWAGA! Pod³¹czenie modu³u do dowolnego gniazda wymaga bezwzglêdnie roz³¹czenia zworek JP6 oraz JP7.
+
+Podstawki dostêpne s¹ w sklepie internetowym firmy Atnel:
+
+https://www.sklep.atnel.pl/pl/p/Podstawka-do-ATB-BTM-ATNEL-AIR/74

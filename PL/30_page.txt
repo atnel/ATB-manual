@@ -1,0 +1,7 @@
+RS485 - transmisja i sterowanie z PC
+
+(rysunki)
+
+Linie ró¿nicowe uk³adu MAX485 wyprowadzone s¹ na z³¹czu w prawym górnym rogu p³yty PCB na z³¹czu œrubowym oznaczonym jako RS485. Po prawej stronie z³¹cza znajduje siê bia³a zworka oznaczona jako TRM, która s³u¿y do za³¹czania terminatora magistrali RS485, czyli rezystora 120R pomiêdzy liniami ró¿nicowymi. Domyœlnie zworka jest zwarta co oznacza, ¿e terminator jest za³¹czony. Linie A i B s¹ wyraŸnie oznaczone na PCB poni¿ej z³¹cza œrubowego typu ARK. Obrazek po lewej stronie.
+
+Na obrazku po prawej stronie przedstawiono widok przejœciówki USB/RS232, jaka jest wbudowana w ka¿dy zestaw uruchomieniowy i oznaczono pin DE (JP5). Zwi¹zane jest to z tym, ¿e uk³ad MAX485 osadzony w zestawie mo¿na wykorzystywaæ albo do pracy z mikrokontrolerem albo do pracy z przejœciówk¹ USB/RS232, co daje mo¿liwoœæ wygodnej komunikacji RS485 bezpoœrednio z komputera do celów testowych. W tym celu nale¿y pod³¹czyæ na krzy¿: liniê TX przejœciówki USB/RS232 do RX uk³adu MAX485 a tak¿e liniê RX przejœciówki USB/RS232 do TX uk³adu MAX485. Zaœ liniê DE uk³adu MAX485 do linii DE (JP5) przejœciówki USB/RS232. Dziêki temu komunikacja ze strony komputera PC mo¿e byæ obs³ugiwana tak jak w trybie RS232, poniewa¿ uk³ad przejœciówki FT232RL sam dba o prze³¹czanie stanu linii DE w celu nas³uchiwania b¹dŸ wysy³ania danych przez uk³ad MAX485.

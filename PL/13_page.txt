@@ -1,0 +1,38 @@
+Opis i funkcje zworek:
+
+(gwiazdka) * - oznacza domyœlny stan zworki, gdy zestaw ATB opuszcza fabrykê.
+
+Zworki ZIELONE - konfiguracja mikrokontrolera
+
+JP1 - zwarta, wejœcie INT2 (PB2) procesora pod³¹czone do KANDA
+rozwarta *, wejœcie PB2 nie pod³¹czone do KANDA
+
+JP2 - zwarta, wejœcie SS (PB4) magistrali SPI pod³¹czone do KANDA rozwarta *, wejœcie PB4 nie pod³¹czone do KANDA
+
+JK1,JK2,JK3 - konfiguracja taktowania mikrokontrolera zgodnie z poni¿sz¹ tabel¹.
+
+(rysunek)
+
+Zworki NIEBIESKIE - zwi¹zane s¹ z lini¹ zasilania +12 V
+
+J1 - zwarta *, gdy nie jest wlutowany prze³¹cznik suwakowy S1.
+rozwarta, gdy jest wlutowany prze³¹cznik suwakowy S1.
+
+J27 - zwarta, zasilanie +12 V doprowadzone do uk³adu ULN2803
+rozwarta *, mo¿na pod³¹czyæ w³asne zasilanie do uk³adu ULN2803
+
+J38 - zwarta, zasilanie +12 V doprowadzone do uk³adu L293D
+rozwarta *, mo¿na pod³¹czyæ w³asne zasilanie do uk³adu L293D
+
+
+Zworki CZERWONE - zwi¹zane s¹ z lini¹ zasilania +5 V / +3,3 V
+
+J2_PWR - pozycja USB *, zestaw zasilany z kabla USB (z komputera)
+pozycja EXT, zestaw zasilany z zewn. zasilacza - przetwornica ATB-PWR3
+
+VCCIO - pozycja TTL *, wyjœcia RS232 uk³adu FT232RL w standardzie TTL
+pozycja 3.3V, wyjœcia RS232 uk³adu FT232RL w standardzie 3,3 V
+
+JP16 - zwarta, gdy przetwornica ATB-PWR3 pracuje z napiêciem +5 V
+rozwarta *, gdy przetwornica ATB-PWR3 pracuje z napiêciem +3,3 V
+( uk³ad stabilizatora 3,3V do ATB-Microport jest pomijany )

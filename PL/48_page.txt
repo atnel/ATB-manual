@@ -1,0 +1,15 @@
+Polecana literatura
+
+Zalecany podrêcznik do nauki podstaw programowania mikrokontrolerów w jêzyku C z zestawami uruchomieniowymi serii ATB firmy Atnel:
+
+(rysunek)
+
+
+http://atnel.pl/EN/avr-microcontrollers-c-language.html
+
+
+
+Zapraszamy na nasz blog: www.mirekk36.blogspot.com
+Zapraszamy na nasze forum wsparcia technicznego: www.forum.atnel.pl
+Zapraszamy do wideo poradników na youtube: www.youtube.com/mirekk36
+Zapraszamy na nasz fanpage na Facebook: www.facebook.com/atnel.mikrokontrolery

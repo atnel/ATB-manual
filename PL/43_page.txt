@@ -1,0 +1,20 @@
+Przetwornica ATB-PWR3
+
+(rysunki)
+
+
+Nowatorskie i niezawodne przetwornice DC-DC typu ATB-PWR3 montowane s¹ domyœlnie w zestawach ATB. Monta¿ przetwornicy umo¿liwia jej wygodn¹ wymianê lub zastosowanie jej poza zestawem ATB.
+
+Przetwornica pozwala na zasilanie zestawu napiêciem +5 V (domyœlnie) lub +3,3 V przy zastosowaniu zewnêtrznego zasilacza stabilizowanego. Wyboru napiêcia dokonuje siê za pomoc¹ zworki na przetwornicy.
+
+Gdy zworka jest rozwarta, na wyjœciu panuje napiêcie +5 V
+Gdy zworka jest zwarta, napiêcie wyjœciowe wynosi +3,3 V
+
+Napiêcie wejœciowe mo¿e byæ w granicach od +8 V do +40 V (max)
+Wydajnoœæ pr¹dowa przetwornicy to a¿ 1,2 A !
+
+
+(rysunek)
+
+Szczegó³owe informacje na temat przetwornicy, jej konfiguracji, mo¿liwoœci dzia³ania znaleŸæ mo¿na na stronie firmy Atnel:
+http://atnel.pl/przetwornice-atb-pwr-3.html

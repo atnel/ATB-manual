@@ -1,0 +1,13 @@
+Przetwornica ATB-LION
+
+(rysunki)
+
+Najnowsze przetwornice (zasilanie buforowane) ATB-LION mo¿na zakupiæ w sklepie internetowym firmy Atnel oraz zamontowaæ opcjonalnie w zamian za ATB-PWR3. Oba rodzaje przetwornic pasuj¹ do tego samego gniazda w zestawie. Przetwornica ATB-LION umo¿liwia zasilanie zestawu zarówno z akumulatorów typu Li-Ion oraz Li-Po, a tak¿e z gniazda mikro USB, do którego mo¿na pod³¹czyæ albo ³adowarkê sieciow¹ albo przewodem USB do komputera. W drugim przypadku, gdy pod³¹czamy modu³ do komputera, mo¿emy zapewniæ tak¿e komunikacjê zestawu ATB z komputerem poprzez USB. W tym celu nale¿y pamiêtaæ aby od strony BOTTOM (od spodu PCB, zewrzeæ kroplami cyny zworki JP10 oraz JP9 przedstawione na obrazkach powy¿ej, zaœ na module przetwornicy zewrzeæ zworki SMD J5 oraz J4. Pod³¹czony przewód USB zapewnia ³adowanie pod³¹czonego akumulatora pr¹dem max 500 mA. W przypadku braku akumulatora przetwornica mo¿e pracowaæ z pominiêciem ³adowarki, wtedy nale¿y przestawiæ zworkê J1 na przetwornicy zgodnie z instrukcj¹ poni¿ej:
+
+(rysunek po lewej)
+
+Przetwornica pozwala na zasilanie zestawu ATB napiêciem +5 V (domyœlnie) lub +3,3 V. Wyboru napiêcia dokonuje siê za pomoc¹ zworki J2 na przetwornicy. (zwarta = +5 V, rozwarta = +3,3 V)
+
+W przypadku u¿ycia ³adowarki typu USB napiêcie wejœciowe nie mo¿e przekroczyæ wartoœci +5 V. £adowarka powinna zapewniaæ wydajnoœæ pr¹dow¹ minimum 800 mA. W trakcie ³adowania akumulatora, œwieci zielona dioda LED umieszczona obok z³¹cza mikro USB na p³ycie PCB przetwornicy ATB-LION.
+
+Przetwornica zaopatrzona zosta³a w wygodny prze³¹cznik suwakowy pozwalaj¹cy na w³¹czanie/wy³¹czanie zasilania dla ca³ego zestawu ATB

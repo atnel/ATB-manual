@@ -1,0 +1,15 @@
+Buzzer (g³oœnik)
+
+(rysunki)
+
+
+W zestawach ATB zastosowano buzzer (g³oœnik) piezoceramiczny z wbudowanym generatorem w zwi¹zku z czym do jego dzia³ania wystarczy doprowadziæ napiêcie +5V. Napiêcie to sterowane jest poprzez tranzystor NPN, którego baza przez rezystor doprowadzona jest do z³¹cza typu goldpin. Jeden z pinów opisany jest jako BUZ i mo¿na go pod³¹czaæ do dowolnego pinu mikrokontrolera aby sterowaæ g³oœniczkiem.
+
+
+
+
+Przyciski (klawisze) typu tact-switch
+
+(rysunki)
+
+Ka¿dy zestaw zaopatrzony jest w piêæ przycisków typu tact-switch. Ich wyprowadzenia dostêpne s¹ na z³¹czu J26.

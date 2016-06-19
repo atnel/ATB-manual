@@ -1,0 +1,14 @@
+Instalacja sterowników do uk³adu FT232RL
+
+(rysunek)
+
+W celu instalacji sterowników nale¿y wykonaæ kilka kroków opisanych poni¿ej:
+
+1. Otworzyæ w przegl¹darce internetowej stronê producenta www.ftdichip.com
+2. Z Menu po lewej stronie wybraæ (klikn¹æ) pozycjê DRIVERS.
+3. Z kolejnego MENU wybraæ (klikn¹æ) pozycjê D2XX Drivers. (bezwzglêdnie tylko tê wersjê)
+4. Przewin¹æ suwakiem ni¿ej, a¿ do tabeli (pozycji) „Currently Supported D2XX Drivers:”
+
+(rysunek)
+
+U¿ytkowników systemów MS Windows interesuje zawsze pierwsza pozycja w tabeli, oraz ostatnia kolumna po prawej stronie, gdzie mo¿na klikn¹æ link „setup executable” aby pobraæ sterowniki w postaci wykonywalnego pliku EXE. Gdy pobieranie zostanie ukoñczone nale¿y uruchomiæ pobrany plik i pod¹¿aæ za wskazówkami programu instalacyjnego. W trakcie pojawi siê komunikat o koniecznoœci zaakceptowania postanowieñ licencyjnych zaœ na koniec, po krótkim procesie instalacyjnym, ca³oœæ zakoñczy siê odpowiednim komunikatem, po którym nale¿y ju¿ tylko wcisn¹æ przycisk „Zakoñcz”.

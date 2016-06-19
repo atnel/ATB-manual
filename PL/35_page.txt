@@ -1,0 +1,28 @@
+(rysunki)
+
+Po zakoñczeniu pracy instalatora sterowników wystarczy pod³¹czyæ zestaw ATB do komputera, co spowoduje automatycznie rozpoczêcie instalacji w³aœciwych sterowników w systemie dla uk³adu FT232RL. Jeœli zestaw by³ pod³¹czony w trakcie pracy instalatora, to instalacja sterowników nast¹pi równie¿ automatycznie od razu po zakoñczeniu pracy instalatora.
+
+Uwaga! W przypadku problemów z instalacj¹ sterowników warto u¿yæ programu CLEANER, równie¿ ze strony producenta. W tym celu nale¿y na stronie g³ównej, jak wy¿ej, wykonaæ nastêpuj¹ce kroki:
+
+1. Wybraæ z Menu g³ównego po lewej stronie opcjê SUPPORT.
+2. Z rozwiniêtego nowego Menu wybraæ pozycjê UTILITIES.
+3. Przesuwaj¹c stronê w dó³ odnaleŸæ spakowany plik ZIP o nazwie: „CDM Uninstaler”
+4. Pobraæ program na dysk i od³¹czyæ od komputera zestaw ATB
+5. Rozpakowaæ plik ZIP i uruchomiæ program o nazwie: „CDMuninstalerGUI.exe”
+
+
+Program do deinstalacji sterowników FTDI
+(rysunek)
+
+Po uruchomieniu programu nale¿y wykonaæ kolejne trzy kroki:
+
+1. Wcisn¹æ przycisk Add
+2. Wskazaæ kursorem myszy now¹ pozycjê
+3. Wcisn¹æ przycisk Remove Devices
+
+Po zakoñczeniu uka¿e siê komunikat
+(rysunek)
+
+
+
+Po zakoñczeniu procesu deinstalacji mo¿na ponownie rozpocz¹æ instalowanie sterowników od pocz¹tku, zgodnie z opisem wy¿ej. Uwaga! Deinstalator odinstaluje sterowniki od wszystkich urz¹dzeñ, które wczeœniej by³y zainstalowane i posiada³y wbudowany uk³ad FT232RL.

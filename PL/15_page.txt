@@ -1,0 +1,28 @@
+[ J15 ] - pozycja RW->uC, pin RW wyœwietlacza pod³¹czony do procesora
+pozycja RW->GND *, pin RW wyœwietlacza pod³¹czony do GND 
+
+[ J8 ] - zwarta *, dla modu³u ATB-microSD nale¿y zewrzeæ tê zworkê
+rozwarta, dla innych modu³ów do ATB-Microport pod³¹czamy wg instrukcji
+
+
+Pozosta³e bia³e zworki na PCB u¿ywamy zgodnie z wyraŸnym opisem na PCB. Dwie pod uk³adem L293D [ J39 ] i [ J40 ] s³u¿¹ do za³¹czania na sta³e wejœæ EN uk³adu; praca w trybie PWM = 100%. Zworki mo¿na zdj¹æ i pod³¹czyæ pojedyncze piny do mikrokontrolera aby sterowaæ oddzielnie ka¿dym mostkiem za pomoc¹ PWM.
+
+
+Dodatkowo jedn¹ z bia³ych zworek dokonuje siê wyboru adresu na magistrali I2C uk³adu zewnêtrznej pamiêci EEPROM 24c04.
+
+(rysunek)
+
+
+Zworki USB (raster 2 mm) - zwi¹zane s¹ z konfiguracj¹ jednego z portów USB-HUB.
+
+[ J11 J12 J13 J14 ]
+Zworki umo¿liwiaj¹ konfiguracjê USB w zestawie.
+Do wyboru s¹:
+1. USBasp - domyœlna konfiguracja *
+Kolejne opcje powoduj¹ od³¹czenie USBasp
+2. USB - czyste linie D+ oraz D- na z³¹czu J17
+3. Uk³ad V-USB gotowy do pod³¹czenia J17
+( tabelka z opisem z ty³u PCB )
+
+
+(gwiazdka) * - oznacza domyœlny stan zworki, gdy zestaw ATB opuszcza fabrykê.

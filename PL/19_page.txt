@@ -1,0 +1,25 @@
+Zestaw ATB zaopatrzony jest fabrycznie w mikrokontroler ATmega32A-PU, który osadzony jest w podstawce precyzyjnej DIL40. Uk³ad wyprowadzeñ umo¿liwia stosowanie zamienników w postaci, popularnych mikrokontrolerów:
+
+* ATmega16
+* ATmega644 / 644P
+* ATmega1284P
+
+
+Ka¿dy z czterech portów mikrokontrolerów tego typu (A,B,C,D) posiada swoje wyprowadzenia w postaci dwurzêdowych goldpinów. Poza tym wyprowadzono na zewn¹trz pozosta³e piny takie jak: zasilanie VCC, GND, piny XTAL, AREF oraz AVCC i AGND.
+Zastosowane wyprowadzenia oraz precyzyjna podstawka umo¿liwiaj¹ do³¹czanie zewnêtrznych (opcjonalnych) modu³ów, które umo¿liwiaj¹ pod³¹czenie do zestawu serii innych mikrokontrolerów AVR, np.:
+
+* ATmega8/48/88/168/328
+* ATmega128A (ATB-SHIELD IO)
+* ATtiny2313
+* ATtiny13/25/45/85
+
+
+Zworki [ JP6 ] oraz [ JP7 ], domyœlnie zwarte, ³¹cz¹ magistralê RS232 mikrokontrolera z uk³adem przejœciówki USB/RS232 (FT232R).
+
+
+W trakcie gdy zwarte s¹ obie zworki, nie nale¿y pinów [ PD0 ] oraz [ PD1 ] wykorzystywaæ do innych celów ni¿ komunikacja RS232, poniewa¿ mo¿e to doprowadziæ do uszkodzenia uk³adów.
+
+Zworki [ JP3 ] oraz [ JP4 ], domyœlnie zwarte ³¹cz¹ magistralê I2C mikrokontrolera z innymi uk³adami w zestawie. S¹ to: 24c04, RTC, OLED. Linie magistrali I2C s¹ podci¹gniête do VCC za pomoc¹ rezystorów 4,7 k.
+
+
+W zwi¹zku z zastosowaniem specjalnej konstrukcji pod³¹czenia magistrali ISP (rezystory szeregowe na liniach MOSI, MISO, SCK), mo¿na pod³¹czaæ do pinów PORTB w trakcie programowania takie modu³y jak: wyœwietlacz LCD, karta pamiêci SD lub inne, korzystaj¹ce z magistrali SPI poprzez ATB-Microport.

@@ -1,0 +1,13 @@
+Uk³ad wejœciowy przetwornika ADC - pomiar napiêcia
+
+(rysunki)
+
+Zestawy uruchomieniowe ATB zosta³y zaopatrzone w nietypowy dla rozwi¹zañ konkurencyjnych dzielnik napiêcia, a tak¿e wejœcie s³u¿¹ce do pomiaru napiêæ pr¹du sta³ego w bardzo szerokim zakresie napiêæ dodatnich. Z uwagi na uk³ad do pomiaru napiêæ, w zestawie poprowadzono specjaln¹ liniê masy analogowej, która jest dobrze odseparowana od masy cyfrowej. Dlatego pomiaru napiêæ z przygotowanym dzielnikiem napiêcia nale¿y dokonywaæ za pomoc¹ wyprowadzeñ z³¹cza J33 opisanego na PCB jako VOLT. W sk³ad dzielnika wchodzi wlutowany fabrycznie potencjometr monta¿owy o rezystancji 20 k a tak¿e przewlekany rezystor R31 usadowiony w podstawce precyzyjnej o wartoœci 10 k. Za pomoc¹ suwaka potencjometru mo¿na albo zmieniaæ stosunek podzia³u ca³ego dzielnika zmieniaj¹c zakres mierzonych napiêæ, albo precyzyjnie dobieraæ podzia³ dzielnika do aktualnego napiêcia dostêpnego na wyprowadzeniu AREF mikrokontrolera.
+
+(rysunek)
+
+Na obrazku po lewej stronie widaæ przyjazny schemat dzielnika w zestawie ATB. Rezystor Ra odpowiada wymiennemu rezystorowi R31. Przedstawiono równie¿ przyk³adowe obliczenia dla doboru dzielnika wzglêdem napiêcia wejœciowego Uwe.
+
+Wiêcej informacji na temat uk³adu oraz porady mo¿na znaleŸæ na stronie firmy Atnel:
+
+http://atnel.pl/atb-pomiar-napiecia-adc.html

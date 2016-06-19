@@ -1,0 +1,14 @@
+Schemat przejœciówki i po³¹czenia
+
+(rysunek)
+
+Przejœciówka USB/RS232 zaopatrzona jest w trzy diody LED. Zielona i czerwona sygnalizuj¹ przesy³anie danych za pomoc¹ linii TX oraz RX. Niebieska dioda LED sygnalizuje proces programowania mikrokontrolera.
+
+
+Aby skorzystaæ z funkcjonalnoœci programatora warto zastosowaæ tzw „kabel programatora”, którym nale¿y dokonaæ po³¹czenia w zestawie pomiêdzy z³¹czem KANDA oraz sygna³ami na z³¹czu szpilkowym UART, zgodnie z opisem sygna³ów na rysunku po prawej stronie. Wykorzystywane s¹ sygna³y: DCD, DSR, CTS oraz RI. Kabelek dostêpny jest w ofercie naszego sklepu internetowego, link poni¿ej:
+
+https://www.sklep.atnel.pl/pl/p/Kabel-programatora/29
+
+Zasady, opis, a tak¿e film instrukta¿owy objaœniaj¹cy w jaki sposób pos³ugiwaæ siê wbudowanym programatorem ATB-FT232R mo¿na poznaæ odwiedzaj¹c dzia³ ELEKTRONIKA na stronie firmy Atnel a nastêpnie wybieraj¹c z menu po lewej stronie pozycjê: „FT232 programator w ATB” lub skorzystaæ z linku:
+
+http://atnel.pl/ft232r-programator-w-atb.html

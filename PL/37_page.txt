@@ -1,0 +1,16 @@
+Sterownik silników L293D
+
+(rysunek)
+
+Firma Atnel jako pierwsza w Polsce wprowadzi³a do zestawów uruchomieniowych AVR sterownik silników DC oraz krokowych bipolarnych. Wyjœcia MOT1 oraz MOT2 s³u¿¹ do pod³¹czania silników.
+
+
+Przemyœlana konstrukcja pozwala na sterowanie ka¿dego kana³u uk³adu L293D za pomoc¹ sygna³ów PWM z mikrokontrolera. Wystarczy w tym celu zdj¹æ bia³e zworki J39 i J40 i pod³¹czyæ linie PWM do zewnêtrznych pinów oznaczonych ¿ó³tymi punktami na rysunku po prawej stronie.
+
+Jeœli nie chcemy korzystaæ z PWM (silniki maj¹ byæ w³¹czone z maksymaln¹ moc¹) trzeba za³o¿yæ bia³e zworki J38 i J40. To jest domyœlne ustawienie.
+
+Wejœcie opisane jako V_DC umo¿liwia pod³¹czenie w³asnego napiêcia zasilania do silników (max 24 V) jednak wtedy zworka J38 musi byæ rozwarta!
+
+Gdy chcemy skorzystaæ z napiêcia +12 V dostarczonego do zestawu ATB (do przetwornicy ATB-PWR3), wtedy wystarczy zewrzeæ zworkê J38.
+
+(rysunek)

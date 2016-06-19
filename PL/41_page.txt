@@ -1,0 +1,21 @@
+Enkoder obrotowy (opcja)
+
+(rysunek)
+
+W zestawach ATB przewidziano tak¿e wykorzystanie ENKODERA obrotowego. Mo¿na korzystaæ z ró¿nych typów enkoderów (24-kroki, 30-kroków i podobne).
+
+
+Uk³ad enkodera zosta³ zaopatrzony na p³ycie PCB w uk³ad dopasowuj¹cy sygna³y do mikrokontrolerów. Wyprowadzenia enkodera A i B oraz przycisk wyprowadzone s¹ na z³¹czu szpilkowym poni¿ej wyœwietlacza LED.
+
+Miejsce na enkoder przewidziano równie¿ dla tych enkoderów, które posiadaj¹ wbudowany przycisk.
+
+UWAGA! Domyœlnie sam ENKODER nie jest montowany w zestawie. Mo¿na go zakupiæ w sklepie internetowym firmy Atnel i zamontowaæ we w³asnym zakresie.
+
+www.sklep.atnel.pl
+
+(rysunek po prawej)
+
+
+Gor¹co polecamy seriê poradników wideo na temat enkoderów oraz ich po³¹czeñ:
+
+https://www.youtube.com/playlist?list=PLtXXWLsA5QNjgCQ3Op_drDTFthk3YAmhE

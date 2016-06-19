@@ -1,0 +1,10 @@
+Wyœwietlacz LCD 2x16
+
+(rysunek)
+
+W zestawach ATB stosowane s¹ standardowe wyœwietlacze alfanumeryczne LCD 2x16 oparte na sterowniku HD44780. U¿ytkownik zestawu posiada do dyspozycji zworkê J15 umieszczon¹ pod wyœwietlaczem, za pomoc¹ której mo¿na zdecydowaæ we w³asnym zakresie czy pin RW wyœwietlacza bêdzie na sta³e pod³¹czony do GND, czy te¿ do mikrokontrolera (domyœlnie zworka ³¹czy pin RW do mikrokontrolera). Sam wyœwietlacz zaopatrzony jest w szereg 16 goldpinów, którymi mo¿na go pod³¹czyæ do ¿eñskiego gniazda znajduj¹cego siê na górnej krawêdzi zestawu. Sygna³y steruj¹ce wyœwietlacza: RS RW E oraz cztery linie danych D7...D4 wraz z sygna³em do sterowania podœwietleniem, wyprowadzone s¹ z lewej strony wyœwietlacza na 8-pinowym z³¹czu ko³kowym J10. Dla wygody u¿ytkownika zastosowano tranzystor wraz z rezystorem w bazie do sterowania podœwietleniem. Mo¿na albo na sta³e pod³¹czyæ ów pin do VCC aby zapewniæ sta³e podœwietlenie, albo te¿ pod³¹czyæ ten pin do mikrokontrolera w celu programowej mo¿liwoœci sterowania podœwietleniem. Po prawej stronie wyœwietlacza znajduje siê niewielki potencjometr monta¿owy 10 k s³u¿¹cy do regulacji kontrastu.
+
+(rysunek)
+
+W standardowej wersji zestawu ATB nie jest montowana przetwornica ICL7660 wraz z kondensatorami, która umo¿liwia prawid³ow¹ pracê wyœwietlacza przy zasilaniu zestawu napiêciem +3,3 V. Przetwornicê mo¿na zakupiæ w sklepie internetowym firmy Atnel i zamontowaæ j¹ we w³asnym zakresie. Aktywacji przetwornicy po wlutowaniu elementów dokonuje siê poprzez zmianê po³o¿enia rezystora SMD R78 w przeciwne po³o¿enie.
+www.sklep.atnel.pl

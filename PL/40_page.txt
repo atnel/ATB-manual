@@ -1,0 +1,16 @@
+Optoizolatory LVT (opcja)
+
+(rysunek)
+
+Dwukana³owy tor optoizolacji w zestawie ATB tworz¹ dwa optoizolatory SMD typu LTV355T. Uk³ady umiejscowione s¹ pod wyœwietlaczem LCD i OLED.
+
+
+Wejœcia optoizolatorów doprowadzone s¹ do z³¹cza k¹towego J31. T¹ drog¹ mo¿na dokonaæ pod³¹czenia wejœæ do mikrokontrolera, aby sterowaæ zewnêtrznym urz¹dzeniem. Wyjœcia dostêpne s¹ na z³¹czach œrubowych ARK, oznaczonych napisami: OPTO1 oraz OPTO2.
+
+W³asnorêczny monta¿ jest u³atwiony, poniewa¿ na PCB znajduj¹ siê ju¿ zainstalowane rezystory SMD: R42 oraz R43 a tak¿e z³¹cze J31.
+
+UWAGA! Domyœlnie optoizolatory oraz z³¹cza ARK nie s¹ montowane w zestawie. Mo¿na je zakupiæ w sklepie internetowym firmy Atnel i zamontowaæ we w³asnym zakresie.
+
+www.sklep.atnel.pl
+
+(rysunek)

@@ -1,0 +1,22 @@
+Driver mocy ULN2803
+
+(rysunek)
+
+(rysunek z podpisem)
+Uk³ad w wersji SMD montowany jest
+od spodu p³ytki PCB
+
+
+
+Uk³ad ULN2803 mo¿e mieæ wiele zastosowañ. Mo¿na go wykorzystaæ do sterowania obci¹¿eniami do 500 mA np.: przekaŸnikami, a nawet silnikami krokowymi unipolarnymi. Uk³ad posiada osiem niezale¿nych kana³ów, ka¿dym z nich mo¿na sterowaæ bezpoœrednio z mikrokontrolera.
+
+
+Z³¹cze opisane na PCB jako V_DC w sekcji ULN2803 umo¿liwia pod³¹czenie w³asnego napiêcia potrzebnego do sterowania przekaŸnikami lub silnikami.
+
+Nale¿y jedynie pamiêtaæ, aby w takim przypadku by³a rozwarta zworka J27.
+
+Jeœli do zasilania przekaŸników, silników lub innych urz¹dzeñ wykorzystane zostanie napiêcie +12 V doprowadzone do zestawu ATB do przetwornicy ATB-PWR3 wystarczy zewrzeæ zworkê J27.
+
+Wejœcia uk³adu dostêpne s¹ na z³¹czu szpilkowym J28.
+
+(rysunek)

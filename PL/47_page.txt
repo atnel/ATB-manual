@@ -1,0 +1,17 @@
+Uk³ad V-USB lub czyste linie USB dla mikrokontrolera
+
+(rysunki)
+
+Pocz¹wszy od wersji 1.05 zestawy ATB zosta³y zaopatrzone we wbudowany dwuportowy HUB USB. Dziêki temu w ka¿dym zestawie mog¹ dzia³aæ dwa urz¹dzenia na ró¿nych liniach (portach) USB. Jednym z urz¹dzeñ jest przejœciówka ATB-USB-RS232 z uk³adem FT232RL, która pod³¹czona jest na sta³e do jednego z portów. Pe³ni ona równie¿, przy okazji, funkcjê zapasowego programatora ATB-FT232R. Drugi port koncentratora USB w zestawie ATB zosta³ przeznaczony (domyœlnie) na potrzeby wbudowanego programatora USBasp. Mo¿liwa jest zmiana konfiguracji w zakresie drugiego portu USB za pomoc¹ zworek od JP11 do JP14. Dopuszcza siê trzy ró¿ne warianty pracy drugiego portu USB:
+
+1. Pod³¹czony wbudowany programator USBasp (domyœlnie).
+2. Mo¿liwoœæ wyprowadzenia czystych linii USB ( D+ oraz D- ) do wykorzystania dla u¿ytkownika.
+3. Aktywacja uk³adu V-USB, który mo¿na za pomoc¹ dwóch przewodów pod³¹czyæ do mikrokontrolera.
+
+Uwaga! Wybór trybów pracy 2 lub 3 powoduje od³¹czenie wbudowanego programatora USBasp, mo¿na jednak nadal w takiej sytuacji korzystaæ z zapasowego wbudowanego programatora ATB-FT232R.
+
+Uk³ad V-USB to wlutowane ju¿ w zestaw elementy SMD, tworz¹ce podstawê (wejœcie) tego uk³adu na p³ycie PCB zestawu. Schemat przedstawiony jest poni¿ej. Jak widaæ linie USB s¹ zabezpieczone diodami Zenera 3V3 oraz rezystorami R75 i R76. Przygotowane jest tak¿e podci¹ganie jednej z linii do VCC.
+
+Wyjœcia linii D+ i D- zarówno dla konfiguracji czystego USB jak i uk³adu V-USB wyprowadzone s¹ na z³¹czu J17 i oznaczone jako U+ oraz U-. Z³¹cze jest ¿eñskie po to, aby zminimalizowaæ ryzyko zwarcia linii USB lub pod³¹czania w to miejsce omy³kowo przewodów po³¹czeniowych do innych modu³ów. W zwi¹zku z powy¿szym, pod³¹czenie linii U+ i U- do mikrokontrolera wymaga dwóch przewodów po³¹czeniowych typu ¿eñsko-mêski.
+
+(rysunek)

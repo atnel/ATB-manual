@@ -1,0 +1,18 @@
+Z³¹cze ATB-MICROPORT
+
+(rysunki)
+
+Zestawy ATB, pocz¹wszy od wersji 1.05 zosta³y wyposa¿one w interesuj¹ce z³¹cze rozszerzeñ w standardzie ATB-MICROPORT. S¹ to dwa rzêdy z³¹czy ¿eñskich 10-cio pinowych, przy czym zaopatrzone jest w klucz (zaœlepka w miejscu pinu NC), aby omy³kowo nie w³o¿yæ odwrotnie modu³u. Na p³ycie PCB zosta³y wyraŸnie opisane sygna³y jakie zosta³y doprowadzone do z³¹cza. Poza zasilaniem doprowadzono magistrale: SPI wraz z sygna³em SS (CS), I2C oraz UART (RS232 RX/TX). Dla lepszej czytelnoœci zosta³y przedstawione równie¿ numery pinów mikrokontrolera ATmega32. Z³¹cze dostêpne jest na stronie firmy Atnel jako gotowy element biblioteczny dla programów: Cadsoft Eagle (*.LBR) oraz Altium Designer.
+
+Zasilanie w ATB-MICROPORT
+
+Na obu rzêdach z³¹cza, patrz¹c od góry, wyprowadzono w kolejnoœci: GND (masa), VCC czyli aktualne zasilanie w zestawie ATB. W zale¿noœci od ustawieñ przetwornicy ATB-PWR3 lub ATB-LION mo¿e ono wynosiæ +5 V albo +3,3 V. Domyœlnie zestawy zasilane s¹ napiêciem +5 V dlatego jako kolejne napiêcie wyprowadzono +3,3V, które uzyskiwane jest dziêki stabilizatorowi LDO typu LM1117 o wydajnoœci pr¹dowej 800 mA. W przypadku zasilania zestawu napiêciem +3,3V z przetwornicy nale¿y dokonaæ obejœcia stabilizatora LDO. Do tego celu s³u¿y zworka JP16, której funkcje opisane s¹ poni¿ej. Czerwona strza³ka na rysunku w niebieskiej ramce oznacza domyœlne ustawienie zworki JP16.
+
+Uwaga! Zaleca siê korzystanie z napiêcia +3,3 V oznaczonego ¿ó³t¹ gwiazdk¹ na rysunku wy¿ej (niebieskie podkreœlenie), na z³¹czu ATB-Microport po lewej stronie.
+
+
+(rysunek)
+Przy domyœlnym napiêciu zasilania zestawu ATB równym +5 V zworka ustawiona jest jak na obrazku po lewej stronie. W zwi¹zku z tym napiêcie +3,3V w z³¹czu ATB-Microport dostarczane jest poprzez stabilizator LDO.
+
+(rysunek)
+Gdy napiêcie zestawu zostanie ustawione na +3,3 V nale¿y przestawiæ zworkê jak na obrazku po lewej stronie. Powoduje to obejœcie uk³adu stabilizatora LDO (Bypass). W tej sytuacji w z³¹czu ATB-Microport dostêpne jest tylko napiêcie +3,3 V, nawet na pinach VCC.
