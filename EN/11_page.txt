@@ -1,16 +1,16 @@
-Okienko programu MkAvrCAlculator, prezentuj¹ce numer portu COM, jaki zosta³ przydzielony pod³¹czonej przejœciówce USB/RS232 z zestawu ATB.
+MkAvrCAlculator application window showing COM port number which have been assigned to connected RS232/USB converter from ATB board.
 
 (rysunek)
 
-W takim przypadku nale¿y wybraæ wskazany port COM w programie MkBootloader i wcisn¹æ przycisk INFO. W wyniku tej akcji w programie MkBootloader ujrzymy odpowiedŸ ze strony mikrokontrolera.
+In this instance you should choose COM port indicated in MkBootloader application and press "INFO" button. As result of this we will see response from microcontroller
 
 (rysunek)
 
-W czerwonej ramce widaæ odpowiedŸ ze strony mikrokontrolera. Potwierdza to prawid³owe dzia³anie mikrokontrolera oraz przejœciówki USB/RS232.
+In red box you can see response from microcntroller. This confirmes proper functioning of microcontroller and RS232/USB converter
 
-Uwaga! Pierwsze wgranie w³asnego programu do mikrokontrolera, chocia¿by do migania diod¹ LED, powoduje skasowanie BLS (bootloadera) w mikrokontrolerze, a wiêc nie bêdzie mo¿na ponownie przeprowadziæ wy¿ej opisanego testu. Nie nale¿y siê jednak obawiaæ takiej sytuacji, poniewa¿ BLS (bootloader) mo¿na wgraæ w dowolnej chwili. Aby tego dokonaæ warto zapoznaæ siê z poradnikiem wideo na youtube: https://www.youtube.com/watch?v=1KcyLMuvcHQ .
+BE ADVISED! First write of own program into microcontroller without use of bootloader will cause removal of BLS ( bootloader itself ) in microcontroller. However you
+should not be worried as writing it back is extremly easy and detailed in the following video https://www.youtube.com/watch?v=1KcyLMuvcHQ .
 
+Jumpers in ATB board
 
-Zworki w zestawie ATB
-
-Widok zestawu ATB od góry i domyœlne ustawienia wszystkich zworek.
+Top view of ATB board and default jumper setup

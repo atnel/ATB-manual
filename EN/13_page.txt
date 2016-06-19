@@ -1,38 +1,47 @@
-Opis i funkcje zworek:
+Description and jumper functionality:
 
-(gwiazdka) * - oznacza domyœlny stan zworki, gdy zestaw ATB opuszcza fabrykê.
+(star) * - indicates default state of jumper.
 
-Zworki ZIELONE - konfiguracja mikrokontrolera
+Green jumpers - microcontroller configuration
 
-JP1 - zwarta, wejœcie INT2 (PB2) procesora pod³¹czone do KANDA
-rozwarta *, wejœcie PB2 nie pod³¹czone do KANDA
+JP1:
++closed    : input INT2 (PB2) connected to KANDA
++open*    :, input PB2 not connected to KANDA
 
-JP2 - zwarta, wejœcie SS (PB4) magistrali SPI pod³¹czone do KANDA rozwarta *, wejœcie PB4 nie pod³¹czone do KANDA
+JP2:
++closed : input SS (PB4) of SPI connected do KANDA
++open * : input PB4 not connected to KANDA
 
-JK1,JK2,JK3 - konfiguracja taktowania mikrokontrolera zgodnie z poni¿sz¹ tabel¹.
+JK1,JK2,JK3 - microcontroller clock configuration based on following
 
 (rysunek)
 
-Zworki NIEBIESKIE - zwi¹zane s¹ z lini¹ zasilania +12 V
+Blue jumpers - related to 12V power line
 
-J1 - zwarta *, gdy nie jest wlutowany prze³¹cznik suwakowy S1.
-rozwarta, gdy jest wlutowany prze³¹cznik suwakowy S1.
+J1 -
++closed  *: when S1 switch is not soldered in.
++open     : when S1 switch is soldered in.
 
-J27 - zwarta, zasilanie +12 V doprowadzone do uk³adu ULN2803
-rozwarta *, mo¿na pod³¹czyæ w³asne zasilanie do uk³adu ULN2803
+J27:
++closed    : 12V supply connected to ULN2803
++open     *: You can connect your own source to ULN2803
 
-J38 - zwarta, zasilanie +12 V doprowadzone do uk³adu L293D
-rozwarta *, mo¿na pod³¹czyæ w³asne zasilanie do uk³adu L293D
+J38:
++closed : 12V supply connected to L293D
++open  *: You can connect your own source to L293D
 
 
-Zworki CZERWONE - zwi¹zane s¹ z lini¹ zasilania +5 V / +3,3 V
+Red jumpers - related to +5 V / +3,3 V power lines
 
-J2_PWR - pozycja USB *, zestaw zasilany z kabla USB (z komputera)
-pozycja EXT, zestaw zasilany z zewn. zasilacza - przetwornica ATB-PWR3
+J2_PWR -
++position USB *: ATB board powered from PC ( usb cable )
++position EXT  : ATB board powered from external source - ATB-PWR3 converter
 
-VCCIO - pozycja TTL *, wyjœcia RS232 uk³adu FT232RL w standardzie TTL
-pozycja 3.3V, wyjœcia RS232 uk³adu FT232RL w standardzie 3,3 V
+VCCIO -
+position TTL *: outputs of RS232 from FT232RL in TTL standard
+position 3.3V : outputs of RS232 from FT232RL in 3,3 V standard
 
-JP16 - zwarta, gdy przetwornica ATB-PWR3 pracuje z napiêciem +5 V
-rozwarta *, gdy przetwornica ATB-PWR3 pracuje z napiêciem +3,3 V
-( uk³ad stabilizatora 3,3V do ATB-Microport jest pomijany )
+JP16 -
++closed :  when ATB-PWR3 converter works with +5V
++open  *:  when ATB-PWR3 converter works with +3,3 V
+( voltage regulator 3,3V to ATB-Microport is ommited )
