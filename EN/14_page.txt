@@ -1,42 +1,43 @@
-[ Zworki ¯Ó£TE ] - odpowiadaj¹ za magistrale danych w zestawie: RS232 oraz I2C
+[ Zworki ï¿½Ó£TE ] - responsible for data plane: RS232 oraz I2C
 
-Magistrala RS232
+RS232 Bus
 
-JP6 - zwarta *, linia TX procesora po³¹czona z lini¹ RX uk³adu FT232R
-rozwarta, linia TX procesora od³¹czona od linii RX uk³adu FT232R
+JP6 - closed *, TX processor line connected to RX line of FT232R
+open, TX processor line disconnected from RX line of FT232R
 
-JP7 - zwarta *, linia RX procesora po³¹czona z lini¹ TX uk³adu FT232R
-rozwarta, linia RX procesora od³¹czona od linii TX uk³adu FT232R
+JP7 - closed *, RX processor line connected to TX line of FT232R
+open, RX processor line disconnected from TX line of FT232R
 
-Uwaga! Zworki domyœlnie s¹ zwarte co oznacza, ¿e nie mo¿na w tym momencie pod³¹czaæ dodatkowo modu³ów Bluetooth lub WiFi do pinów PD0 i PD1 mikrokontrolera. Podobnie nie mo¿na z nich w tym momencie korzystaæ do innych celów. Aby to by³o mo¿liwe nale¿y rozewrzeæ obie zworki.
-
-
-
-Magistrala I2C
-
-JP3 - zwarta *, linia SDA (PC1) procesora pod³¹czona do magistrali na ATB
-rozwarta, linia SDA (PC1) procesora od³¹czona od magistrali na ATB
-
-JP4 - zwarta *, linia SCL (PC0) procesora pod³¹czona do magistrali na ATB
-rozwarta, linia SCL (PC0) procesora od³¹czona od magistrali na ATB
+WARNING: Jumpers are closed by default which means you cannot connect external devices
+i.e. Bluetooth/Wifi to pins PD0/PD1 of MCU. Same you cannot use the for other purposes.
+In order to perform safely he above you need to open both Jumpers.
 
 
-[ Zworki BIA£E ] - konfiguracja uk³adów peryferyjnych w zestawie
+I2C Bus
+
+JP3 - closed *, SDA(PC1) MCU line connected to ATB
+open, DA(PC1) MCU line disconnected fom ATB
+
+JP4 - closed *, SCL(PC1) MCU line connected to ATB
+open, SCL(PC1) MCU line disconnected from ATB
+
+
+[ Jumpers BIAï¿½E ] - external devices configuration within ATB board
 
 [ J35 J36 J37 ]
-Zworki umo¿liwiaj¹ wybór i osadzenie w zestawie ATB jednego z czterech uk³adów RTC.
-Do wyboru s¹:
-1. PCF8583 - montowany fabrycznie
+Jumpsrs makes possible to fit into the board one of the following RTCs
+Do wyboru sï¿½:
+1. PCF8583 - mounted by default
 2. PCF8563
 3. DS1307+
 4. DS1337+
 
 
-[ JP8-ARST ] - zwarta, w³¹czony auto RESET z linii DTR uk³adu, FT232R (jak w Arduino)
-rozwarta *, linia RESET od³¹czona od DTR 
+[ JP8-ARST ] - closed, auto RESET connected to DTR from FT232R ( same as in Arduino )
+open *, RESET line disconnected from DTR
 
-[ J3 ] - zwarta *, dla przetwornicy ATB-PWR3 musi byæ ZWARTA !
-rozwarta, dla przetwornicy ATB-LION musi byæ ROZWARTA ! 
+[ J3 ] - closed *, for ATB-PWR3 must be closed !
+open, for ATB-LION must be open !
 
-[ IR_ICP ] - zwarta, pod³¹czenie wyjœcia odbiornika IR do pinu PD6
-rozwarta *, wyjœcie odbiornika IR od³¹czone
+[ IR_ICP ] - closed, connection of IR receiver output to PD6
+open *, IR receiver output disconnected

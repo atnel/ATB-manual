@@ -1,28 +1,26 @@
-[ J15 ] - pozycja RW->uC, pin RW wyœwietlacza pod³¹czony do procesora
-pozycja RW->GND *, pin RW wyœwietlacza pod³¹czony do GND 
+[ J15 ] - position RW->uC, RW pin of LCD connected to MCU
+position RW->GND *, pin RW of LCD connected to GND
 
-[ J8 ] - zwarta *, dla modu³u ATB-microSD nale¿y zewrzeæ tê zworkê
-rozwarta, dla innych modu³ów do ATB-Microport pod³¹czamy wg instrukcji
+[ J8 ] - closed *, ATB-microSD module need to be closed
+open, for other modules using ATB-Microport connect accordingly to manual
 
+Remaining white jumpers on PCB we use accordingly to description provided on the board.
+Two under L293D [ J39 ] and [ J40 ] are used to permanent power on of EN input for the IC and PWM = 100%.
+Jumpers can be taken out and connected to single pins of MCU to control independently with each of bridges with use of PWM
 
-Pozosta³e bia³e zworki na PCB u¿ywamy zgodnie z wyraŸnym opisem na PCB. Dwie pod uk³adem L293D [ J39 ] i [ J40 ] s³u¿¹ do za³¹czania na sta³e wejœæ EN uk³adu; praca w trybie PWM = 100%. Zworki mo¿na zdj¹æ i pod³¹czyæ pojedyncze piny do mikrokontrolera aby sterowaæ oddzielnie ka¿dym mostkiem za pomoc¹ PWM.
-
-
-Dodatkowo jedn¹ z bia³ych zworek dokonuje siê wyboru adresu na magistrali I2C uk³adu zewnêtrznej pamiêci EEPROM 24c04.
+Additionaly one of white jumpers allows to select I2C address for externaly mounted EEPROM memory IC (24c04)
 
 (rysunek)
 
 
-Zworki USB (raster 2 mm) - zwi¹zane s¹ z konfiguracj¹ jednego z portów USB-HUB.
+USB jumpers ( 2mm ) - related to configuration of one from USB-HUB.
 
 [ J11 J12 J13 J14 ]
-Zworki umo¿liwiaj¹ konfiguracjê USB w zestawie.
-Do wyboru s¹:
-1. USBasp - domyœlna konfiguracja *
-Kolejne opcje powoduj¹ od³¹czenie USBasp
-2. USB - czyste linie D+ oraz D- na z³¹czu J17
-3. Uk³ad V-USB gotowy do pod³¹czenia J17
-( tabelka z opisem z ty³u PCB )
+Jumpers allows for the following to be configured:
+1. USBasp - default configuration *
+Remaining options implies disconnection of USBasp
+2. USB - clean lines D+ and D- on ??? J17
+3. V-USB - ready for connection to J17 ( table with description on PCB  )
 
 
-(gwiazdka) * - oznacza domyœlny stan zworki, gdy zestaw ATB opuszcza fabrykê.
+(wildcard) * - indicates default setting when leaving the factory.
